@@ -1,3 +1,4 @@
+//
 li=list(input().strip())
 start=0
 for i in range(len(li)):
@@ -8,3 +9,4 @@ for i in range(len(li)):
                 start=j
                 break
 print(*li,sep="")
+//
